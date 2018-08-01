@@ -11,10 +11,12 @@
 
 #include <os/log.h>
 
-void _os_log(const char *str);
-void _os_log_info(const char *str);
-void _os_log_debug(const char *str);
-void _os_log_error(const char *str);
-void _os_log_fault(const char *str);
+os_log_t _os_log_default_ptr();
+
+void _os_log(os_log_t log, const char *str);
+void _os_log_info(os_log_t log, const char *str);
+void _os_log_debug(os_log_t log, const char *str);
+void _os_log_error(os_log_t log, const char *str);
+void _os_log_fault(os_log_t log, const char *str);
 
 #endif /* oslog_h */

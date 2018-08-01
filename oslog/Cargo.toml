@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["Søren Mortensen <soren@sorenmortensen.com>"]
 
 [dependencies]
+libc = "*"
 log = { version = "0.4", features = ["std"] }
 oslog-sys = { path = "../oslog-sys" }
