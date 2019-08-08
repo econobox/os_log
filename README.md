@@ -28,7 +28,7 @@ Add both `oslog` and `log` to your `Cargo.toml`:
 ```toml
 [dependencies]
 log = "0.4"
-oslog = { git = "https://github.com/econobox/oslog" }
+oslog = { git = "https://git.sr.ht/~nerosnm/oslog" }
 ```
 
 and to your crate root:
